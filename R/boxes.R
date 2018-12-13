@@ -114,7 +114,7 @@ gradientBox <- function(..., title = NULL, icon = NULL, gradientColor = NULL,
         } else {
           "box-footer text-black no-padding"
         },
-        footer
+        shiny::tags$p(footer)
       )
     )
   )
